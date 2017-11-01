@@ -1,0 +1,61 @@
+body {
+    background-image: url("home_page.jpg");
+    background-position: top;
+    background-size: 1400px;
+    background-repeat: no-repeat;
+}
+
+h1,
+h2 {
+    font-family: 'Crimson Text', serif;
+    font-size: 35px;
+    color: black;
+}
+
+#title {
+    float: right;
+    clear: right;
+    background-color: white;
+    opacity: 0.35;
+    position: relative;
+}
+
+#thank {
+    position: absolute;
+    font-family: 'Crimson Text', serif;
+    margin: 0px 463px 10px 460px;
+    padding: 2px 65px 3px 71px;
+    background-color: rgba(255, 255, 255, 0.7);
+    top: 290px;
+}
+
+p {
+    position: absolute;
+    font-family: 'Crimson Text', serif;
+    top: 438px;
+    margin: 0px 368px 0px 460px;
+    padding: 0px 15px 1px 22px;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+}
+
+.form {
+    top: 285px;
+    position: relative;
+    padding: 220px 360px 26px 420px;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 74px;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    margin: -20px 36PX 7PX 0PX;
+}
+
+input[type=submit] {
+    font-family: 'Crimson Text', serif;
+    position: absolute;
+    height: 37px;
+    width: 158px;
+}

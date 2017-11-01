@@ -1,0 +1,95 @@
+body {
+    background-image: url("home_page.jpg");
+    background-position: top;
+    background-size: 1400px;
+    background-repeat: no-repeat;
+}
+
+ul {
+    padding: 35px 50px 50px 24px;
+    margin: 0px;
+    list-style-type: none;
+    top: 400px;
+    left: 305px;
+}
+
+.menu {
+    position: relative;
+    float: left;
+}
+
+li {
+    float: left;
+}
+
+ul li a {
+    line-height: 60px;
+    background: url(boutonnoir.png) no-repeat;
+    color: #DCDCDC;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    margin: 269px -345px -29px 91px;
+    width: 50px;
+    height: 50px;
+    padding: 19px 402px 196px 10px;
+    font-family: 'Crimson Text', serif;
+}
+
+ul li a:hover {
+    background: url(boutonnoir2.png) no-repeat;
+    color: white;
+}
+
+h1,
+h2 {
+    font-family: 'Crimson Text', serif;
+    font-size: 35px;
+    color: black;
+}
+
+#title {
+    float: right;
+    clear: right;
+    background-color: white;
+    opacity: 0.35;
+    position: relative;
+}
+
+#sentence {
+    position: relative;
+    font-family: 'Crimson Text', serif;
+    top: 340px;
+    margin: 0px 466px 0px 460px;
+    padding: 0px 40px 0px 86px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.form {
+    top: 200px;
+    position: relative;
+    padding: 220px 360px 26px 420px;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 74px;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    margin: -20px 36PX 7PX 0PX;
+}
+
+input[type=submit] {
+    font-family: 'Crimson Text', serif;
+    position: absolute;
+    margin: 25px 11px 19px 79px;
+}
+
+input,
+textarea {
+    padding: 3px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 1px 1px 2px #C0C0C0 inset;
+}

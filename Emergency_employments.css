@@ -1,0 +1,85 @@
+body {
+    background-image: url("home_page.jpg");
+    background-position: top;
+    background-size: 1400px;
+    background-repeat: no-repeat;
+}
+
+ul {
+    padding: 35px 50px 50px 24px;
+    margin: 0px;
+    list-style-type: none;
+    top: 400px;
+    left: 305px;
+}
+
+.menu {
+    position: relative;
+    float: left;
+}
+
+li {
+    float: left;
+}
+
+ul li a {
+    line-height: 60px;
+    background: url(boutonnoir.png) no-repeat;
+    color: #DCDCDC;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    margin: 269px -345px -29px 91px;
+    width: 50px;
+    height: 50px;
+    padding: 19px 402px 196px 10px;
+    font-family: 'Crimson Text', serif;
+}
+
+ul li a:hover {
+    background: url(boutonnoir2.png) no-repeat;
+    color: white;
+}
+
+h1,
+h2 {
+    font-family: 'Crimson Text', serif;
+    font-size: 35px;
+    color: black;
+}
+
+#title {
+    float: right;
+    clear: right;
+    background-color: white;
+    opacity: 0.35;
+    position: relative;
+}
+
+#title2 {
+    position: relative;
+    font-family: 'Crimson Text', serif;
+    top: 340px;
+    margin: 0px 466px 0px 460px;
+    padding: 0px 40px 0px 86px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#list {
+    line-height: 50px;
+    color: #DCDCDC;
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    margin: 349px 0px 0px 109px;
+    width: 136px;
+    height: 445px;
+    /* padding: 0px 0px 0px 0px; */
+    font-family: 'Crimson Text', serif;
+}
+
+input[type=button] {
+    font-family: 'Crimson Text', serif;
+    position: absolute;
+    margin: -27px 11px 19px 900px;
+}
